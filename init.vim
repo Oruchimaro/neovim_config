@@ -19,5 +19,11 @@ source $HOME/.config/nvim/plug-config/nerdtree.vim
 " FZF
 source $HOME/.config/nvim/plug-config/fzf.vim
 
+" Colorizer
+source $HOME/.config/nvim/plug-config/rainbow.vim
+
+" Lua Files
+luafile $HOME/.config/nvim/lua/plug-colorizer.lua
+
 " Key Mappings
 source $HOME/.config/nvim/keys/mappings.vim

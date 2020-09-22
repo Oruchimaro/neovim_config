@@ -26,6 +26,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'phpactor/phpactor', {'for': 'php', 'branch': 'master', 'do': 'composer install --no-dev -o'}
     Plug 'elythyr/phpactor-mappings'
 
+    " Colorizer
+    Plug 'norcalli/nvim-colorizer.lua'
+    Plug 'junegunn/rainbow_parentheses.vim'
     " THEME
     Plug 'joshdick/onedark.vim'
 
