@@ -18,4 +18,6 @@ source $HOME/.config/nvim/themes/airline.vim
 
 " COC
 source $HOME/.config/nvim/plug-config/coc.vim
+" NerdTree
+source $HOME/.config/nvim/plug-config/nerdtree.vim
 
