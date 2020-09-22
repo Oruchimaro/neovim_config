@@ -16,6 +16,8 @@ source $HOME/.config/nvim/themes/airline.vim
 source $HOME/.config/nvim/plug-config/coc.vim
 " NerdTree
 source $HOME/.config/nvim/plug-config/nerdtree.vim
+" FZF
+source $HOME/.config/nvim/plug-config/fzf.vim
 
 " Key Mappings
 source $HOME/.config/nvim/keys/mappings.vim

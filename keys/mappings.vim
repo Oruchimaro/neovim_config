@@ -82,7 +82,24 @@ nnoremap <Leader>b< :CocCommand bookmark.previous<CR>
 nmap <Leader>ba <Plug>(coc-bookmark-annotate)
 
 
-"FZF 
-"nnoremap <C-p> 
-"vnoremap <C-p> 
+"FZF  :find a file in directory
+nnoremap <space>p :FZF<CR>
+vnoremap <space>p :FZF<CR>
+
+" BLines : Search for a strig inside a file <buffer>
+nnoremap <space>l :BLines<CR>
+vnoremap <space>l  :BLines<CR>
+" blines : search for a strig inside all files <all buffers>
+nnoremap <space>L :Lines<cr>
+vnoremap <space>L  :Lines<cr>
+" blines : search for a strig inside all files <all buffers>
+nnoremap <space>B :Buffers<cr>
+vnoremap <space>B  :Buffers<cr>
+
+" Files  : same as fzf but with file preview
+nnoremap <space>O :Files<CR>
+vnoremap <space>O  :Files<CR>
+" RipGrep :search for a string inside directory
+nnoremap <C-f> :Rg<CR>
+vnoremap <C-f>  :Rg<CR>
 
