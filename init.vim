@@ -6,10 +6,6 @@ source $HOME/.config/nvim/vim-plug/plugins.vim
 " Settings File
 source $HOME/.config/nvim/general/settings.vim
 
-" Key Mappings
-source $HOME/.config/nvim/keys/mappings.vim
-
-
 " Themes
 source $HOME/.config/nvim/themes/onedark.vim
 
@@ -21,3 +17,5 @@ source $HOME/.config/nvim/plug-config/coc.vim
 " NerdTree
 source $HOME/.config/nvim/plug-config/nerdtree.vim
 
+" Key Mappings
+source $HOME/.config/nvim/keys/mappings.vim

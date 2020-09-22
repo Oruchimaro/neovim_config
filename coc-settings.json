@@ -65,19 +65,19 @@
     }
   },
 
-  "phpactor.config": {},
-
   // python config
   "python.linting.enabled": true,
   "python.linting.pylintEnabled": true,
 
   "snippets.ultisnips.directories": ["UltiSnips", "~/.config/nvim/utils/snips"],
   // explorer
-  "explorer.width": 30,
+  "explorer.width": 40,
   "explorer.icon.enableNerdfont": true,
-  "explorer.previewAction.onHover": false,
+  "explorer.previewAction.onHover": true,
   "explorer.keyMappings": {
-    "<cr>": ["expandable?", "expand", "open"],
+    "<cr>": ["expandable?", "expand", "open"], //enter
     "v": "open:vsplit"
-  }
+  },
+  "bookmark.sign": "🔖",
+  "bookmark.signHl": "TODO"
 }

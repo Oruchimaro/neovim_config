@@ -44,10 +44,11 @@ inoremap <C-q> <Esc>:wqa<CR>
 
 " Ctrl + Y : copy to system buffer
 " Ctrl + P : paste from system buffer
-nnoremap <C-y> "+y
-vnoremap <C-y> "+y
-nnoremap <C-p> "+gP
-vnoremap <C-p> "+gP
+nnoremap <Leader>y "+y
+vnoremap <Leader>y "+y
+nnoremap <Leader>p "+gP
+vnoremap <Leader>p  "+gP
+
 
 " shift + | : vsplit 
 nmap <Bar>  <C-W>v<C-W><Right>
@@ -63,3 +64,25 @@ nmap <C-c>  <C-W>c
 " 'yw (y2w) ...' to copy'
 " 'ctrl + j' to replace with the word under cursur
 nnoremap <leader>v ciw<C-r>0<ESC>
+
+" Coc Mappings
+" bookarks
+
+" Leader + b : create/delete a bookmark
+nnoremap <Leader>b :CocCommand bookmark.toggle<CR>
+" Leader + bc : clear bookmark for the current file
+nnoremap <Leader>bc :CocCommand bookmark.clearForCurrentFile<CR>
+" Leader + bca : clear bookmark for all files
+nnoremap <Leader>bca :CocCommand bookmark.clearForAllFiles<CR>
+" Leader + b> : jump to the next bookmark
+nnoremap <Leader>b> :CocCommand bookmark.next<CR>
+" Leader + b< : jump to the prev bookmark
+nnoremap <Leader>b< :CocCommand bookmark.previous<CR>
+" Leader + ba :  create a bookmark with annotation
+nmap <Leader>ba <Plug>(coc-bookmark-annotate)
+
+
+"FZF 
+"nnoremap <C-p> 
+"vnoremap <C-p> 
+
