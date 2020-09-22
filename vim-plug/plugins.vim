@@ -15,4 +15,10 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Auto pairs for '(' '[' '{'
     Plug 'jiangmiao/auto-pairs'
 
+    " THEME
+    Plug 'joshdick/onedark.vim'
+
+    " COC
+    Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
 call plug#end()
