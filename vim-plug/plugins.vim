@@ -14,6 +14,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'preservim/nerdtree'
     " Auto pairs for '(' '[' '{'
     Plug 'jiangmiao/auto-pairs'
+    "Phpactor (for coc-phpactor)
+    Plug 'phpactor/phpactor', {'for': 'php', 'branch': 'master', 'do': 'composer install --no-dev -o'}
+    Plug 'elythyr/phpactor-mappings'
 
     " THEME
     Plug 'joshdick/onedark.vim'
