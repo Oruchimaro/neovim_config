@@ -2,8 +2,8 @@
 if empty(glob('~/.config/nvim/autoload/plug.vim'))
   silent !curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs
     \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-  "autocmd VimEnter * PlugInstall
-  "autocmd VimEnter * PlugInstall | source $MYVIMRC
+  autocmd VimEnter * PlugInstall
+  autocmd VimEnter * PlugInstall | source $MYVIMRC
 endif
 
 call plug#begin('~/.config/nvim/autoload/plugged')
@@ -14,10 +14,10 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " File Explorer
     Plug 'preservim/nerdtree'
     Plug 'scrooloose/nerdcommenter'
-    Plug 'Xuyuanp/nerdtree-git-plugin'
+   
     Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
     Plug 'ryanoasis/vim-devicons'
-    Plug 'airblade/vim-gitgutter'
+    
 
     " Auto pairs for '(' '[' '{'
     Plug 'jiangmiao/auto-pairs'
@@ -46,4 +46,12 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     
     " Startify
     Plug 'mhinz/vim-startify'
+
+    " Git
+    Plug 'mhinz/vim-signify'
+    Plug 'tpope/vim-fugitive'
+    Plug 'tpope/vim-rhubarb'
+    Plug 'Xuyuanp/nerdtree-git-plugin'
+    Plug 'junegunn/gv.vim'
+    Plug 'airblade/vim-gitgutter'
 call plug#end()

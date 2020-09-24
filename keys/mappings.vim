@@ -109,3 +109,55 @@ vnoremap <C-f>  :Rg<CR>
  nnoremap <Leader>ss :SSave[!]    "save a session
  nnoremap <Leader>sd :SDelete[!]  "delete a session
  nnoremap <Leader>sc :SClose      "close a session
+
+
+
+" Signify git Jump though hunks
+" Leader + gj : Jumps to next hunk of change
+nmap <leader>gj <plug>(signify-next-hunk)
+" Leader + gk : Jumps to prev hunk of change
+nmap <leader>gk <plug>(signify-prev-hunk)
+nmap <leader>gJ 9999<leader>gJ
+nmap <leader>gK 9999<leader>gk
+" Leader + tg : toggle git indicators
+nmap <leader>tg :SignifyToggle<CR>
+" Leader + th : toggle highlight of lines
+nmap <leader>th :SignifyToggleHighlight<CR>
+
+" git Fugitive / Rhubarb keys
+" Leader + ga : git add
+nmap <leader>ga  :Git add
+" Leader + gc : git commit
+nmap <leader>gc :Git commit
+" Leader + gp : git push
+nmap <leader>gp :Git push
+
+nmap <leader>gg :Git pull
+
+nmap <leader>gd :Git diff
+" Load diff in seprate windows
+nmap <leader>gs Gdiffsplit
+
+nmap <leader>gl :Git log
+
+nmap <leader>gb :Git blame
+" opens a summary window with dirty files and unpushed and unpulled commits
+nmap <leader>g :Git
+" open the current file on the web front-end of your favorite hosting provider
+nmap <leader>gb GBrowse
+" Leader + gv : git commit browser
+nmap <Leader>gv :GV
+"will only list commits that affected the current file
+nmap <leader>gf :GV!         
+"fills the location list with the revisions of the current file
+nmap <leader>gr :GV?         
+" Visual mode (select line) -> Leader + gt 
+nmap <leader>gt :GV          "or :GV? can be used in visual mode to track the changes in the selected lines.
+"Mappings
+"o or on a commit to display the content of it
+"o or on commits to display the diff in the range
+"O opens a new tab instead
+"gb for :Gbrowse
+"]] and [[ to move between commits
+". to start command-line with :Git [CURSOR] SHA à la fugitive
+"q or gq to close
