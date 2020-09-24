@@ -103,3 +103,9 @@ vnoremap <space>O  :Files<CR>
 nnoremap <C-f> :Rg<CR>
 vnoremap <C-f>  :Rg<CR>
 
+
+"Creating Sessions and Manage them
+ nnoremap <Leader>s :SLoad       "load a sessiony
+ nnoremap <Leader>ss :SSave[!]    "save a session
+ nnoremap <Leader>sd :SDelete[!]  "delete a session
+ nnoremap <Leader>sc :SClose      "close a session
