@@ -13,8 +13,10 @@ source $HOME/.config/nvim/themes/onedark.vim
 source $HOME/.config/nvim/themes/airline.vim
 
 " Signify
-
 source $HOME/.config/nvim/plug-config/signify.vim
+" Codi
+source $HOME/.config/nvim/plug-config/codi.vim
+
 " COC
 source $HOME/.config/nvim/plug-config/coc.vim
 " NerdTree

@@ -178,3 +178,10 @@ let g:coc_snippet_prev = '<c-k>'
 
 " Use <C-j> for both expand and jump (make expand higher priority.)
 imap <C-j> <Plug>(coc-snippets-expand-jump)
+
+
+
+"Codi for a specific filetype
+nmap <Leader>ty :Codi python
+nmap <Leader>tj :Codi javascript
+nmap <Leader>tp :Codi php

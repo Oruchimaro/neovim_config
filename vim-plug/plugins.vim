@@ -57,4 +57,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
     " Snippets
     Plug 'honza/vim-snippets'
+    " Codi
+    Plug 'ChristianChiarulli/codi.vim'
 call plug#end()
