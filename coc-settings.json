@@ -79,5 +79,8 @@
     "v": "open:vsplit"
   },
   "bookmark.sign": "🔖",
-  "bookmark.signHl": "TODO"
+  "bookmark.signHl": "TODO",
+
+  //user snippets
+  "snippets.userSnippetsDirectory": "~/.config/nvim/snips"
 }

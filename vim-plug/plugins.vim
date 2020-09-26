@@ -54,4 +54,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'Xuyuanp/nerdtree-git-plugin'
     Plug 'junegunn/gv.vim'
     Plug 'airblade/vim-gitgutter'
+
+    " Snippets
+    Plug 'honza/vim-snippets'
 call plug#end()
