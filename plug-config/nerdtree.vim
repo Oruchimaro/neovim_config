@@ -1,7 +1,3 @@
-" ctrl + n : NERDTreeToggle on normalMode
-nmap <C-n> :NERDTreeToggle<CR>
-vmap ++ <plug>NERDCommenterToggle
-nmap ++ <plug>NERDCommenterToggle
 let NERDRreeShowHidden=1 
 
 " open NERDTree automatically

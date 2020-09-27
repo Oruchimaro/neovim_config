@@ -185,3 +185,11 @@ imap <C-j> <Plug>(coc-snippets-expand-jump)
 nmap <Leader>ty :Codi python
 nmap <Leader>tj :Codi javascript
 nmap <Leader>tp :Codi php
+
+
+"nerd
+" ctrl + n : NERDTreeToggle on normalMode
+nmap <C-n> :NERDTreeToggle<CR>
+vmap ++ <plug>NERDCommenterToggle
+nmap ++ <plug>NERDCommenterToggle
+

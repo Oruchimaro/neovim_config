@@ -31,5 +31,7 @@ source $HOME/.config/nvim/plug-config/start-screen.vim
 " Lua Files
 luafile $HOME/.config/nvim/lua/plug-colorizer.lua
 
+"Which key
+source $HOME/.config/nvim/keys/which-key.vim
 " Key Mappings
 source $HOME/.config/nvim/keys/mappings.vim
