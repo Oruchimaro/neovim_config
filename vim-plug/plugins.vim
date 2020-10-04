@@ -69,4 +69,11 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Gist 
     Plug 'mattn/webapi-vim'
     Plug 'mattn/vim-gist'
+
+    " vim Floaterm
+    Plug 'voldikss/vim-floaterm'
+    Plug 'voldikss/fzf-floaterm'
+
+    " Tabline
+    Plug 'mg979/vim-xtabline'
 call plug#end()
