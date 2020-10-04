@@ -10,49 +10,87 @@
     "python",
     "php",
     "vue",
-    "html"
+    "html",
+    "dart"
   ],
   "languageserver": {
     "intelephense": {
       "command": "intelephense",
-      "args": ["--stdio"],
-      "filetypes": ["php"],
+      "args": [
+        "--stdio"
+      ],
+      "filetypes": [
+        "php"
+      ],
       "initializationOptions": {
         "storagePath": "/tmp/intelephense"
       }
     },
     "clangd": {
       "command": "clangd",
-      "rootPatterns": ["compile_flags.txt", "compile_commands.json"],
-      "filetypes": ["c", "cc", "cpp", "c++", "objc", "objcpp"]
+      "rootPatterns": [
+        "compile_flags.txt",
+        "compile_commands.json"
+      ],
+      "filetypes": [
+        "c",
+        "cc",
+        "cpp",
+        "c++",
+        "objc",
+        "objcpp"
+      ]
     },
     "cmake": {
       "command": "cmake-language-server",
-      "filetypes": ["cmake"],
-      "rootPatterns": ["build/"],
+      "filetypes": [
+        "cmake"
+      ],
+      "rootPatterns": [
+        "build/"
+      ],
       "initializationOptions": {
         "buildDirectory": "build"
       }
     },
     "rust": {
       "command": "rust-analyzer",
-      "filetypes": ["rust"],
-      "rootPatterns": ["Cargo.toml"]
+      "filetypes": [
+        "rust"
+      ],
+      "rootPatterns": [
+        "Cargo.toml"
+      ]
     },
     "bash": {
       "command": "bash-language-server",
-      "args": ["start"],
-      "filetypes": ["sh"],
-      "ignoredRootPaths": ["~"]
+      "args": [
+        "start"
+      ],
+      "filetypes": [
+        "sh"
+      ],
+      "ignoredRootPaths": [
+        "~"
+      ]
     },
     "sql": {
       "command": "sql-language-server",
-      "args": ["up", "--method", "stdio"],
-      "filetypes": ["sql", "mysql"]
+      "args": [
+        "up",
+        "--method",
+        "stdio"
+      ],
+      "filetypes": [
+        "sql",
+        "mysql"
+      ]
     },
     "rome-lsp": {
       "command": "rome",
-      "args": ["lsp"],
+      "args": [
+        "lsp"
+      ],
       "filetypes": [
         "javascript",
         "javascriptreact",
@@ -60,27 +98,88 @@
         "typescriptreact",
         "json"
       ],
-      "rootPatterns": [".config"],
+      "rootPatterns": [
+        ".config"
+      ],
       "requireRootPattern": true
     }
   },
-
   // python config
   "python.linting.enabled": true,
   "python.linting.pylintEnabled": true,
-
-  "snippets.ultisnips.directories": ["UltiSnips", "~/.config/nvim/utils/snips"],
+  "snippets.ultisnips.directories": [
+    "UltiSnips",
+    "~/.config/nvim/utils/snips"
+  ],
   // explorer
   "explorer.width": 40,
   "explorer.icon.enableNerdfont": true,
   "explorer.previewAction.onHover": true,
   "explorer.keyMappings": {
-    "<cr>": ["expandable?", "expand", "open"], //enter
+    "<cr>": [
+      "expandable?",
+      "expand",
+      "open"
+    ], //enter
     "v": "open:vsplit"
   },
   "bookmark.sign": "🔖",
   "bookmark.signHl": "TODO",
-
   //user snippets
-  "snippets.userSnippetsDirectory": "~/.config/nvim/snips"
+  "snippets.userSnippetsDirectory": "~/.config/nvim/snips",
+  //coc-flutter
+  "flutter.lsp.initialization.closingLabels": true,
+  //coc-markdownlint
+  "markdownlint.onOpen": true,
+  "markdownlint.onChange": true,
+  "markdownlint.onSave": true,
+  "markdownlint.config": {
+    "default": true,
+    "line_length": false
+  },
+  //coc-tailwindcss
+  "tailwindCSS.emmetCompletions": true,
+  "tailwindCSS.cssLanguages": [
+    "css",
+    "less",
+    "postcss",
+    "sass",
+    "scss",
+    "stylus",
+    "vue"
+  ],
+  "tailwindCSS.jsLanguages": [
+    "javascript",
+    "javascriptreact",
+    "reason",
+    "typescriptreact"
+  ],
+  "tailwindCSS.htmlLanguages": [
+    "blade",
+    "edge",
+    "eelixir",
+    "ejs",
+    "elixir",
+    "elm",
+    "erb",
+    "eruby",
+    "haml",
+    "handlebars",
+    "htmldjango",
+    "html",
+    "HTML (EEx)",
+    "HTML (Eex)",
+    "html.twig",
+    "jade",
+    "leaf",
+    "markdown",
+    "njk",
+    "nunjucks",
+    "php",
+    "razor",
+    "slim",
+    "svelte",
+    "twig",
+    "vue"
+  ]
 }

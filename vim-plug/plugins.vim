@@ -61,4 +61,12 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'ChristianChiarulli/codi.vim'
     " Which Key
     Plug 'liuchengxu/vim-which-key'
+    " Live server
+    Plug 'turbio/bracey.vim' 
+    " Markdown Preview
+    Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
+
+    " Gist 
+    Plug 'mattn/webapi-vim'
+    Plug 'mattn/vim-gist'
 call plug#end()
