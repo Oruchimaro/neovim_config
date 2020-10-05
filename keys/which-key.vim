@@ -37,11 +37,7 @@ let g:which_key_map['='] = [ '<C-W>='                             , 'balance win
 let g:which_key_map['d'] = [ ':Bdelete'                           , 'delete buffer']
 let g:which_key_map['|'] = [ '<C-W>v<C-W><Right>'                 , 'split right']
 let g:which_key_map['-'] = [ '<C-W>s<C-W><Down>'                  , 'split below']
-let g:which_key_map['p'] = [ '"+y"'                             , 'paste from system buffer' ]
-let g:which_key_map['y'] = [ '"+gP"'                            , 'yank to system buffer' ]
-"let g:which_key_map['u'] = [ ':UndotreeToggle'                    , 'undo tree']
-"let g:which_key_map['W'] = [ 'w'                                  , 'write' ]
-"let g:which_key_map['z'] = [ 'Goyo'                               , 'zen' ]
+let g:which_key_map['^'] = [ ':IndentLinesToggle'                 , 'toggles indent lines on and off.']
 
 " Group mappings
 let g:which_key_map.1 = {

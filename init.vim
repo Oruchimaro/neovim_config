@@ -19,6 +19,8 @@ source $HOME/.config/nvim/plug-config/codi.vim
 
 " COC
 source $HOME/.config/nvim/plug-config/coc.vim
+" IndentLine
+source $HOME/.config/nvim/plug-config/indentline.vim
 " NerdTree
 source $HOME/.config/nvim/plug-config/nerdtree.vim
 " FZF
@@ -29,6 +31,9 @@ source $HOME/.config/nvim/plug-config/markdown.vim
 " Colorizer
 source $HOME/.config/nvim/plug-config/rainbow.vim
 source $HOME/.config/nvim/plug-config/start-screen.vim
+
+" Floaterm
+source $HOME/.config/nvim/plug-config/floaterm.vim
 
 " Lua Files
 luafile $HOME/.config/nvim/lua/plug-colorizer.lua

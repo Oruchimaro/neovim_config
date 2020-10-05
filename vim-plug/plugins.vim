@@ -34,6 +34,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
     " COC
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
+    Plug 'neoclide/coc-tsserver', {'do': 'yarn install --frozen-lockfile'}
 
     "Airline
     Plug 'vim-airline/vim-airline'
@@ -76,4 +77,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
     " Tabline
     Plug 'mg979/vim-xtabline'
+
+    Plug 'Yggdroot/indentLine'
 call plug#end()

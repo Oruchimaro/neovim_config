@@ -55,22 +55,6 @@ nmap <C-c>  <C-W>c
 " 'ctrl + j' to replace with the word under cursur
 nnoremap <leader>v ciw<C-r>0<ESC>
 
-" Coc Mappings
-" bookarks
-
-" Leader + b : create/delete a bookmark
-nnoremap <Leader>b :CocCommand bookmark.toggle<CR>
-" Leader + bc : clear bookmark for the current file
-nnoremap <Leader>bc :CocCommand bookmark.clearForCurrentFile<CR>
-" Leader + bca : clear bookmark for all files
-nnoremap <Leader>bca :CocCommand bookmark.clearForAllFiles<CR>
-" Leader + b> : jump to the next bookmark
-nnoremap <Leader>b> :CocCommand bookmark.next<CR>
-" Leader + b< : jump to the prev bookmark
-nnoremap <Leader>b< :CocCommand bookmark.previous<CR>
-" Leader + ba :  create a bookmark with annotation
-nmap <Leader>ba <Plug>(coc-bookmark-annotate)
-
 " Snippets
 " Use <C-l> for trigger snippet expand.
 imap <C-l> <Plug>(coc-snippets-expand)
@@ -93,3 +77,6 @@ nmap <C-n> :NERDTreeToggle<CR>
 vmap ++ <plug>NERDCommenterToggle
 nmap ++ <plug>NERDCommenterToggle
 
+"using ctrl + T to enter terminal mode
+noremap <C-t> :terminal<CR>
+inoremap <C-t> <Esc>:terminal<CR>

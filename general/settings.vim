@@ -50,4 +50,6 @@ set foldlevel=99
 
 
 
+set undofile
+set undodir="$home/.VIM_UNDO_FILES"
 
