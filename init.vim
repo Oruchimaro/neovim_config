@@ -9,7 +9,7 @@ source $HOME/.config/nvim/general/settings.vim
 source $HOME/.config/nvim/general/disableArrowKeys.vim
 
 " Themes
-source $HOME/.config/nvim/themes/onedark.vim
+source $HOME/.config/nvim/themes/setTheme.vim
 
 " Airline
 source $HOME/.config/nvim/themes/airline.vim

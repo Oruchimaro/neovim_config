@@ -31,7 +31,11 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'junegunn/rainbow_parentheses.vim'
     " THEME
     Plug 'joshdick/onedark.vim'
-
+    Plug 'mhartington/oceanic-next'
+    Plug 'drewtempelmeyer/palenight.vim'
+    Plug 'ayu-theme/ayu-vim'
+    Plug 'morhetz/gruvbox'
+    Plug 'arcticicestudio/nord-vim'
     " COC
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
     Plug 'neoclide/coc-tsserver', {'do': 'yarn install --frozen-lockfile'}

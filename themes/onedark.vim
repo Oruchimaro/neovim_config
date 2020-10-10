@@ -13,7 +13,7 @@ let g:onedark_terminal_italics=1
 let g:onedark_termcolors=256
 
 syntax on
-colorscheme onedark
+
 
 
 " checks if your terminal has 24-bit color support
@@ -21,4 +21,13 @@ if has('nvim') || has('termguicolors')
     set termguicolors
     hi LineNr ctermbg=NONE guibg=NONE
 endif
+
+
+
+" Switch to your current theme
+let g:airline_theme = 'onedark'
+
+
+colorscheme onedark
+
 
