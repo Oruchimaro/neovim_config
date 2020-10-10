@@ -5,6 +5,8 @@ source $HOME/.config/nvim/vim-plug/plugins.vim
 
 " Settings File
 source $HOME/.config/nvim/general/settings.vim
+" Disable arrow keys
+source $HOME/.config/nvim/general/disableArrowKeys.vim
 
 " Themes
 source $HOME/.config/nvim/themes/onedark.vim

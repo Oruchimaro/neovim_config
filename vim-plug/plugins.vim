@@ -79,4 +79,5 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'mg979/vim-xtabline'
 
     Plug 'Yggdroot/indentLine'
+
 call plug#end()

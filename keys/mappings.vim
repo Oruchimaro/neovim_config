@@ -80,3 +80,24 @@ nmap ++ <plug>NERDCommenterToggle
 "using ctrl + T to enter terminal mode
 noremap <C-t> :terminal<CR>
 inoremap <C-t> <Esc>:terminal<CR>
+" Make ESC key bring nvim back in terminal mode
+tnoremap <Esc> <C-\><C-n>
+
+"fzf
+map <C-p> :FZF<CR>
+tmap <c-p>  <C-\><C-n>:FZF<CR>
+map <C-f> :Rg<CR>
+nnoremap <C-g> :BLines<CR>
+
+
+" Copy and Paste vim buffer
+noremap <Leader>y "*y
+noremap <Leader>p "*p
+" Copy and Paste system buffer
+noremap <Leader>Y "+y
+noremap <Leader>P "+p
+
+
+
+nnoremap <space>f  :CocCommand explorer --preset floating<CR>
+nnoremap <space>e  :CocCommand explorer<CR>
