@@ -27,10 +27,10 @@ source $HOME/.config/nvim/plug-config/coc.vim
 source $HOME/.config/nvim/plug-config/indentline.vim
 " NerdTree
 source $HOME/.config/nvim/plug-config/nerdtree.vim
-" FZF
-source $HOME/.config/nvim/plug-config/fzf.vim
 " markdown
 source $HOME/.config/nvim/plug-config/markdown.vim
+" FZF
+source $HOME/.config/nvim/plug-config/fzf.vim
 
 " Colorizer
 source $HOME/.config/nvim/plug-config/rainbow.vim

@@ -101,3 +101,9 @@ noremap <Leader>P "+p
 
 nnoremap <space>f  :CocCommand explorer --preset floating<CR>
 nnoremap <space>e  :CocCommand explorer<CR>
+
+"move lines up and down after selecting visual mode
+" 'alt + up-arrow'  move selected line up
+" 'alt + down-arrow'  move selected line down
+xnoremap <M-Up> :move '<-2<CR>gv-gv
+xnoremap <M-Down> :move '>+1<CR>gv-gv
