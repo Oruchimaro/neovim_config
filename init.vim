@@ -19,6 +19,8 @@ source $HOME/.config/nvim/plug-config/signify.vim
 " Codi
 source $HOME/.config/nvim/plug-config/codi.vim
 
+"php refactoring 
+source $HOME/.config/nvim/plug-config/php-refactor.vim
 " COC
 source $HOME/.config/nvim/plug-config/coc.vim
 " IndentLine
@@ -44,3 +46,4 @@ luafile $HOME/.config/nvim/lua/plug-colorizer.lua
 source $HOME/.config/nvim/keys/which-key.vim
 " Key Mappings
 source $HOME/.config/nvim/keys/mappings.vim
+

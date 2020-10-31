@@ -78,6 +78,26 @@ let g:which_key_map.b = {
       \ 'p' : ['bprevious' , 'previous-buffer'],
       \ '?' : ['Buffers'   , 'fzf-buffer'],
       \ }
+
+" P php refactor 
+let g:which_key_map.r = {
+      \ 'name' : '+php-refactor' ,
+      \ '1' : [':call PhpRenameLocalVariable()<CR>'        , 'rename local var'],
+      \ '2' : [':call PhpRenameClassVariable()<CR>'        , 'rename class var'],
+      \ '3' : [':call PhpExtractUse()<CR>'        , 'extract use'],
+      \ '4' : [':call PhpExtractMethod()<CR>'        , 'extract method'],
+      \ '5' : [':call PhpRenameMethod()<CR>'        , 'rename method'],
+      \ '6' : [':call PhpExtractConst()<CR>'        , 'extract const'],
+      \ '7' : [':call PhpExtractClassProperty()<CR>'        , 'extract class property'],
+      \ '8' : [':call PhpCreateProperty()<CR>'        , 'create property'],
+      \ '9' : [':call PhpDetectUnusedUseStatements()'        , 'detect unused use statement'],
+      \ 'a' : [':call PhpAlignAssigns()<CR>'        , 'align assign'],
+      \ 'b' : [':call PhpCreateSettersAndGetters()<CR>'        , 'create setter and getter'],
+      \ 'g' : [':call PhpCreateGetters()<CR> '        , 'create getter'],
+      \ 'd' : [':call PhpDocAll()<CR>'        , 'doc all'],
+      \ }
+
+
 " f is for find and replace
 let g:which_key_map.F = {
       \ 'name' : '+find' ,

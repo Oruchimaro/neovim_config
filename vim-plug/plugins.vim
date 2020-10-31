@@ -84,4 +84,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
     Plug 'Yggdroot/indentLine'
 
+    " PHP refcatoring tool box
+    Plug 'adoy/vim-php-refactoring-toolbox'
 call plug#end()
