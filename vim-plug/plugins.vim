@@ -69,8 +69,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Live server
     Plug 'turbio/bracey.vim' 
     " Markdown Preview
-    Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
-
+    Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
     " Gist 
     Plug 'mattn/webapi-vim'
     Plug 'mattn/vim-gist'
