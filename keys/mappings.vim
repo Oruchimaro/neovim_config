@@ -84,7 +84,7 @@ inoremap <C-t> <Esc>:terminal<CR>
 tnoremap <Esc> <C-\><C-n>
 
 "fzf
-map <C-p> :FZF<CR>
+map <C-p> :Files<CR>
 tmap <c-p>  <C-\><C-n>:FZF<CR>
 map <C-f> :Rg<CR>
 nnoremap <C-g> :BLines<CR>

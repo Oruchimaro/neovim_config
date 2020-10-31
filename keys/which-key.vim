@@ -79,7 +79,7 @@ let g:which_key_map.b = {
       \ '?' : ['Buffers'   , 'fzf-buffer'],
       \ }
 " f is for find and replace
-let g:which_key_map.f = {
+let g:which_key_map.F = {
       \ 'name' : '+find' ,
       \ 'p' : [':FZF'     , 'fuzzy finder'],
       \ 'b' : [':BLines'     , 'string in current buffer'],
