@@ -70,7 +70,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'turbio/bracey.vim' 
     " Markdown Preview
     Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
-
     " Gist 
     Plug 'mattn/webapi-vim'
     Plug 'mattn/vim-gist'
