@@ -10,17 +10,7 @@ let g:startify_lists = [
             \ ]
 
 "Bookmarks
-let g:startify_bookmarks = [
-            \ { '1': '~/Documents/Code/Web/Back/Laravel' },
-            \ { '2': '~/Documents/Code/Web/Back/Node' },
-            \ { '3': '~/Documents/Code/Web/Back/php' },
-            \ { '4': '~/Documents/Code/Web' },
-            \ { '5': '~/Documents/Code/js' },
-            \ { '6': '~/Documents/Code/Cpp' },
-            \ '~/Documents/Code',
-            \ '~/Documents/Work',
-            \ '~/Documents',
-            \ ]
+source $HOME/.config/nvim/general/startscrbm.vim
 
 " automatically restart a session like this
 let g:startify_session_autoload = 1
